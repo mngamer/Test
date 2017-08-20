@@ -5,17 +5,23 @@ It is entirely optional and the project will load without it.  If you are placin
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <position-x>810.545</position-x>
         <position-y>598.75</position-y>
         <position-z>121</position-z>
         <lookat-x>810.545</lookat-x>
         <lookat-y>598.75</lookat-y>
 =======
+=======
+>>>>>>> parent of 9bf7d90... Merge branch 'master' of https://github.com/mngamer/Test
         <position-x>854</position-x>
         <position-y>411.439</position-y>
         <position-z>173.03</position-z>
         <lookat-x>854</lookat-x>
         <lookat-y>411.439</lookat-y>
+<<<<<<< HEAD
+>>>>>>> parent of 9bf7d90... Merge branch 'master' of https://github.com/mngamer/Test
+=======
 >>>>>>> parent of 9bf7d90... Merge branch 'master' of https://github.com/mngamer/Test
         <lookat-z>0</lookat-z>
     </camera>
@@ -32,7 +38,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Effects" />
     </properties>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <active-layer name="Layer 1" />
+=======
+    <active-layer name="Layer 0" />
+>>>>>>> parent of 9bf7d90... Merge branch 'master' of https://github.com/mngamer/Test
 =======
     <active-layer name="Layer 0" />
 >>>>>>> parent of 9bf7d90... Merge branch 'master' of https://github.com/mngamer/Test

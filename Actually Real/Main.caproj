@@ -207,6 +207,7 @@
             </animation-folder>
         </object-type>
         <object-type name="Flag2" sid="871104431019189">
+<<<<<<< HEAD
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Sine" sid="371757830557122">
@@ -216,6 +217,25 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="754365544625904" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+=======
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="371757830557122">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="754365544625904" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Level3Background" sid="221557361033325">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="863932813794071" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Chase\Downloads\vfiepxro.png" />
+>>>>>>> parent of 9bf7d90... Merge branch 'master' of https://github.com/mngamer/Test
                 </animation>
             </animation-folder>
         </object-type>
