@@ -285,13 +285,11 @@
         <layout>Test.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
-        <layout>Level 3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>TestEvent.xml</event-sheet>
         <event-sheet>LevelEvent1.xml</event-sheet>
         <event-sheet>LevelEvent2.xml</event-sheet>
-        <event-sheet>LevelEvent3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="106" />
