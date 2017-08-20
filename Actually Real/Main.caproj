@@ -15,10 +15,12 @@
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="shadowlight" version="1">Shadow Light</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
@@ -180,10 +182,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="SkyBack" sid="757277824978761">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
         <object-type name="Cage" sid="840612892566996">
             <plugin id="Sprite" />
             <behaviors>
@@ -217,24 +215,78 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Flag2" sid="871104431019189">
+        <object-type name="Sprite" sid="768002274890928">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Sine" sid="371757830557122">
-                    <behavior id="Sin" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="754365544625904" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357204316654469" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Level3Background" sid="221557361033325">
+        <object-type name="Sprite2" sid="252089898939454">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="863932813794071" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Chase\Downloads\vfiepxro.png" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="623606283295867" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="background" sid="258479824828031">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="719505598578666" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ShadowLight" sid="531234644587608">
+            <plugin id="shadowlight" />
+        </object-type>
+        <object-type name="rotate" sid="715674536463526">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="816932977073218">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="214901829292380">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="287694670232876" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="shift" sid="901107831976965">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="172763463550563">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="473330338112099">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="961644315542452" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="smash" sid="915829351604522">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="437027471828203">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="952987182474945">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="492054653673966" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -275,13 +327,11 @@
         <layout>Test.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
-        <layout>Level 3.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Test.xml</event-sheet>
+        <event-sheet>TestEvent.xml</event-sheet>
         <event-sheet>LevelEvent1.xml</event-sheet>
         <event-sheet>LevelEvent2.xml</event-sheet>
-        <event-sheet>LevelEvent3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="106" />
