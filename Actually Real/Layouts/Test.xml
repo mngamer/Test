@@ -844,27 +844,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
-                <instance type="TestSprite" uid="105">
-=======
-                <instance type="enemy1" uid="105">
->>>>>>> bd777560eb878480461e1902e984004606d5ff52
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-<<<<<<< HEAD
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640</x>
-                        <y>608</y>
-                        <z>0</z>
-                        <width>250</width>
-                        <height>250</height>
-=======
+
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
