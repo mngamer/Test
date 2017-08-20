@@ -214,5 +214,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="812711520053271">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="990566283144091" type="smash">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="916219444521030" type="System" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
