@@ -206,20 +206,43 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Flag2" sid="871104431019189">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="371757830557122">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="754365544625904" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Level3Background" sid="221557361033325">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="863932813794071" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Chase\Downloads\vfiepxro.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Test.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
+        <layout>Level 3.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>TestEvent.xml</event-sheet>
+        <event-sheet>Test.xml</event-sheet>
         <event-sheet>LevelEvent1.xml</event-sheet>
         <event-sheet>LevelEvent2.xml</event-sheet>
+        <event-sheet>LevelEvent3.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="20" />
+        <global-instance type="Keyboard" uid="106" />
     </global-instances>
     <sounds-folder />
     <music-folder />
