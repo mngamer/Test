@@ -1147,7 +1147,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MovingSolidTile" uid="105">
+                <instance type="MovingSolidTile" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
