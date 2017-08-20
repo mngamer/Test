@@ -10,19 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-<<<<<<< HEAD
         <layout order="1">Test</layout>
         <layout active="1" order="2">Level 1</layout>
         <layout order="4">Level 2</layout>
         <event-sheet order="0">TestEvent</event-sheet>
         <event-sheet order="3">LevelEvent1</event-sheet>
-=======
-        <layout order="0">Test</layout>
-        <layout order="2">Level 1</layout>
-        <layout order="3">Level 2</layout>
-        <layout active="1" order="4">Level 3</layout>
-        <event-sheet order="1">LevelEvent1</event-sheet>
->>>>>>> d252b7764bcbc5f44e0771ab02b244d96eb77f72
         <event-sheet order="5">LevelEvent2</event-sheet>
     </open-tabs>
     <properties>
@@ -46,16 +38,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Cage/" />
         <folder expanded="1" path="animation-folder/Flag/" />
         <folder expanded="1" path="animation-folder/TestSprite/" />
-<<<<<<< HEAD
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/background/" />
         <folder expanded="1" path="animation-folder/rotate/" />
         <folder expanded="1" path="animation-folder/shift/" />
         <folder expanded="1" path="animation-folder/smash/" />
-=======
-        <folder expanded="1" path="animation-folder/Flag2/" />
-        <folder expanded="1" path="animation-folder/Level3Background/" />
->>>>>>> d252b7764bcbc5f44e0771ab02b244d96eb77f72
     </folders-expanded>
 </c2uistate>

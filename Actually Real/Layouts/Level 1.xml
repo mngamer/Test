@@ -47,29 +47,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-<<<<<<< HEAD
-=======
-                <instance type="SkyBack" uid="66">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-1456</x>
-                        <y>-775</y>
-                        <z>0</z>
-                        <width>3753</width>
-                        <height>2145</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
->>>>>>> d252b7764bcbc5f44e0771ab02b244d96eb77f72
                 <instance type="Player" uid="67">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>

@@ -204,7 +204,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
         <object-type name="Sprite" sid="768002274890928">
             <plugin id="Sprite" />
             <animation-folder>
@@ -260,22 +259,10 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="961644315542452" speed="5">
-=======
-        <object-type name="Flag2" sid="871104431019189">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Sine" sid="371757830557122">
-                    <behavior id="Sin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="754365544625904" speed="5">
->>>>>>> d252b7764bcbc5f44e0771ab02b244d96eb77f72
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
         <object-type name="smash" sid="915829351604522">
             <plugin id="Sprite" />
             <behaviors>
@@ -289,13 +276,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="492054653673966" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-=======
-        <object-type name="Level3Background" sid="221557361033325">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="863932813794071" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Chase\Downloads\vfiepxro.png" />
->>>>>>> d252b7764bcbc5f44e0771ab02b244d96eb77f72
                 </animation>
             </animation-folder>
         </object-type>
@@ -305,20 +285,14 @@
         <layout>Test.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
-        <layout>Level 3.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Test.xml</event-sheet>
+        <event-sheet>TestEvent.xml</event-sheet>
         <event-sheet>LevelEvent1.xml</event-sheet>
         <event-sheet>LevelEvent2.xml</event-sheet>
-        <event-sheet>LevelEvent3.xml</event-sheet>
     </event-folder>
     <global-instances>
-<<<<<<< HEAD
         <global-instance type="Keyboard" uid="106" />
-=======
-        <global-instance type="Keyboard" uid="138" />
->>>>>>> d252b7764bcbc5f44e0771ab02b244d96eb77f72
     </global-instances>
     <sounds-folder />
     <music-folder />
