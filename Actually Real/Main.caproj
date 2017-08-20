@@ -242,7 +242,7 @@
         <event-sheet>LevelEvent3.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="106" />
+        <global-instance type="Keyboard" uid="138" />
     </global-instances>
     <sounds-folder />
     <music-folder />
