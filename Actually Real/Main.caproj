@@ -17,8 +17,10 @@
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
@@ -62,10 +64,16 @@
                 <behavior-type name="ScrollTo" sid="672691438028766">
                     <behavior id="scrollto" />
                 </behavior-type>
+                <behavior-type name="Timer" sid="101258537247862">
+                    <behavior id="Timer" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="744517375600024" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Logan\Desktop\rockk.png">
+                        <image-point name="Imagepoint 1" x="1.96875" y="0.5" />
+                        <image-point name="Imagepoint 2" x="1" y="0.5" />
+                        <image-point name="Imagepoint 3" x="-2.53125" y="0.54" />
                         <collision-poly>
                             <point x="0.25" y="0.16" />
                             <point x="0.5" y="0" />
@@ -118,6 +126,9 @@
         </object-type>
         <object-type global="1" name="enemy1" sid="421875080690644">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="EnemyHealth1" sid="930789185379676" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Solid" sid="479152703728275">
                     <behavior id="solid" />
@@ -224,6 +235,37 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="863932813794071" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Chase\Downloads\vfiepxro.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sword" sid="190332638421168">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="SwordDamage" sid="612356184613815" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="830171160634055" speed="5">
+                    <frame duration="1" hotspotX="0.992" hotspotY="0.228">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Projectile" sid="777079694000538">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="692804648332614">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906829379948410" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
